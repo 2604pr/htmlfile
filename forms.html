@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>First Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    <br/>
+    <br/>
+    <label for="EmailID">EmailID:</label>
+    <input type="email" id="EmailID" name="emailID">
+    <br/>
+    <br/>
+    <label for="PhoneNo">PhoneNo:</label>
+    <input type="tel" id="PhoneNo" name="PhoneNo">
+    <br/>
+    <br/>
+    <label for="OccupationType">Occupation:</label>
+    <select name="OccupationType" id="OccupationType">
+        <option value="Student">Student</option>
+        <option value="Professional">Professional</option>
+        <option value="others">others</option>
+    </select>
+    <br/>
+    <br/>
+    <fieldset>
+        <legend>Topics of Interest</legend>
+        <label for="HTML ">HTML:</label>
+        <input type="radio" id="HTML" name="html">
+        <label for="CSS">CSS:</label>
+        <input type="radio" id="CSS" name="CSS">
+        <label for="JavaScript">JavaScript:</label>
+        <input type="radio" id="JavaScript" name="JavaScript">
+    </fieldset>
+
+    <label for="textarea1">Comments:</label>
+    <br/>
+    <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
